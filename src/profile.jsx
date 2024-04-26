@@ -9,6 +9,7 @@ export const Profile=({name ,email,personalInfo})=>{
       <p>{email}</p>
        <p>{personalInfo}</p>
        <p>cvbnm</p>
+       <button onClick={()=>{console.log('clicked')}}>clickmeeee</button>
         </div>
        
         </>
